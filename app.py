@@ -30,6 +30,14 @@ add_bg_from_url()
 
 #add_bg_from_local(img_path)    
 st.markdown("<style> ul {display: none;} </style>", unsafe_allow_html=True)
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 st.title("LOGIN CREDENTIALS")
 st.title("")
