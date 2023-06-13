@@ -67,6 +67,7 @@ st.write("Kindly copy and paste the link in your browser")
 st.subheader("1) DOWNLOAD THE FOLDER ")
 st.subheader("2) UNZIP IT ")
 st.subheader("3) UPLOAD THE ENTIRE FOLSER IN THE DRAG AND DROP OBJECT BELOW (REMEMBER TO UPLOAD UNZIPPED 'FOLDER')")
+st.subheader("4) CLICK ANALYSE BUTTON, LET THE PROGRAM ANALYSE FOR YOU!")
 st.title("UPLOAD DOR'S HERE")
 def main():
     parent_text = ""
