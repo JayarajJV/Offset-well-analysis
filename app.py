@@ -59,7 +59,6 @@ def unit_of_measurement(t):
     word_list = t.split()
     return word_list[-1]
 st.title("AUTOMATED OFFSET WELL ANALYSIS")
-st.header("UPLOAD DOR'S HERE")
 st.subheader("IN THIS VERSION-I OFFSET WELL ANALYSIS PROGRAM SHOWCASE, DDR FORMAT IS LIMITED.")
 st.subheader("SMALL WORK MANUAL -")
 st.subheader("KINDLY FIND THE BELOW LINK TO LIMITED DDR FORMAT IN DRIVE")
