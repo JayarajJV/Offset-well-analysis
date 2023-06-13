@@ -1,0 +1,9 @@
+streamlit
+PyPDF2==2.12.1
+pandas==1.4.1
+regex
+numpy
+openpyxl
+matplotlib
+matplotlib
+matplotlib
