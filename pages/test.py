@@ -20,7 +20,7 @@ footer {visibility: hidden;}
 
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
-
+st.markdown("<style> ul {display: none;} </style>", unsafe_allow_html=True)
 
 def depth_start(t):
     return re.findall('^[0-9][0-9]:[0-9][0-9]\s[0-9][0-9]:[0-9][0-9]\s[0-9]:[0-9][0-9].([0-9.]+)', t)
