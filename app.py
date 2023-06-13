@@ -59,14 +59,14 @@ def unit_of_measurement(t):
     word_list = t.split()
     return word_list[-1]
 st.title("AUTOMATED OFFSET WELL ANALYSIS")
-st.subheader("IN THIS VERSION-I OFFSET WELL ANALYSIS PROGRAM SHOWCASE, DDR FORMAT IS LIMITED.")
+st.subheader("IN THIS VERSION-I OF OFFSET WELL ANALYSIS PROGRAM SHOWCASE, DDR FORMAT IS LIMITED.")
 st.subheader("SMALL WORK MANUAL -")
 st.subheader("KINDLY FIND THE BELOW LINK TO LIMITED DDR FORMAT IN DRIVE")
 st.write("https://drive.google.com/drive/folders/15isTTRs3Ans4VJnLrSMRMsClB-iu7man?usp=sharing")
 st.write("Kindly copy and paste the link in your browser")
 st.subheader("1) DOWNLOAD THE FOLDER ")
 st.subheader("2) UNZIP IT ")
-st.subheader("3) UPLOAD THE ENTIRE FOLSER IN THE DRAG AND DROP OBJECT BELOW (REMEMBER TO UPLOAD UNZIPPED 'FOLDER')")
+st.subheader("3) UPLOAD THE ENTIRE FOLDER IN THE DRAG AND DROP OBJECT BELOW (REMEMBER TO UPLOAD UNZIPPED 'FOLDER')")
 st.subheader("4) CLICK ANALYSE BUTTON, LET THE PROGRAM ANALYSE FOR YOU!")
 st.title("UPLOAD DOR'S HERE")
 def main():
