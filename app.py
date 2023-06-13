@@ -3,7 +3,7 @@ import streamlit as st
 import time
 from PIL import Image
 st.set_page_config(layout='centered')
-img_path = "https://github.com/DEPTHJOURNEY/Automated-Offset-well-analysis/blob/main/oil rig1.jpg?raw=true"
+img_path = "https://github.com/JayarajJV/Offset-well-analysis/edit/main/tempsnip.png?raw=true"
 from streamlit_extras.switch_page_button import switch_page
 user_name = ['admin','Aaftaab.k','aaftaab.k']
 pass_word = ['abc@123','Review@2023','Review@2023']
@@ -15,7 +15,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://github.com/DEPTHJOURNEY/Automated-Offset-well-analysis/blob/main/oil rig1.jpg?raw=true");
+             background-image: url("https://github.com/JayarajJV/Offset-well-analysis/edit/main/tempsnip.png?raw=true");
              background-attachment: fixed;
              background-size: cover
          }}
