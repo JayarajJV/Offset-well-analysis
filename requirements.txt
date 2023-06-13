@@ -5,5 +5,5 @@ regex
 numpy
 openpyxl
 matplotlib
-matplotlib
-matplotlib
+DateTime
+streamlit-extras
