@@ -12,6 +12,9 @@ from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 from matplotlib.cbook import get_sample_data
 import matplotlib.cbook as cbook
 
+
+#https://drive.google.com/drive/folders/15isTTRs3Ans4VJnLrSMRMsClB-iu7man?usp=sharing
+
 def depth_start(t):
     return re.findall('^[0-9][0-9]:[0-9][0-9]\s[0-9][0-9]:[0-9][0-9]\s[0-9]:[0-9][0-9].([0-9.]+)', t)
 
@@ -57,6 +60,12 @@ def unit_of_measurement(t):
     return word_list[-1]
 st.title("AUTOMATED OFFSET WELL ANALYSIS")
 st.header("UPLOAD DOR'S HERE")
+st.subheader("IN THIS VERSION-I OFFSET WELL ANALYSIS PROGRAM SHOWCASE, DDR FORMAT IS LIMITED.")
+st.subheader("SMALL WORK MANUAL -")
+st.subheader("KINDLY FIND THE BELOW LINK TO LIMITED DDR FORMAT IN DRIVE")
+st.subheader("1) DOWNLOAD THE FOLDER ")
+st.subheader("2) UNZIP IT ")
+st.subheader("3) UPLOAD THE ENTIRE FOLSER IN THE DRAG AND DROP OBJECT BELOW (REMEMBER TO UPLOAD UNZIPPED 'FOLDER')")
 def main():
     parent_text = ""
     summary = []
